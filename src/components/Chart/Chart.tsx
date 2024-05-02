@@ -48,7 +48,7 @@ const PriceChart = ({ token }: PriceChartProps) => {
     datasets: [
       {
         fill: true,
-        label: `${token.name} (${token.symbol}) Price Chart`,
+        label: `${token.name} (${token.symbol})/USD Price Chart`,
         data: coinChartData.map((val: any) => val.y),
         borderColor: "rgb(53, 162, 235)",
         backgroundColor: "rgba(53, 162, 235, 0.5)",
