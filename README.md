@@ -17,3 +17,7 @@ bun install
 ```
 bun run dev
 ```
+
+<h2>Nice to have</h2>
+
+<p>I would make list of tokens static, but task required to fetch it from 3rd party API, so I merged 2 lists from 2 endpoints. Also tt would be nice to add sceletons while data is loading, nice error messages, etc. But for test assignment it looks nice IMO. </p>
